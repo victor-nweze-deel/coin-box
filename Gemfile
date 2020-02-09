@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'graphql'
 gem 'graphiql-rails'
 gem 'figaro'
+gem 'httparty'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
