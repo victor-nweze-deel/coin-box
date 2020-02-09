@@ -15,24 +15,8 @@ RSpec.describe Types::PriceType do
       })
     end
 
-    let(:bad_query) do
-      %(query {
-        calculatePrice(
-          type: "cello"
-          margin: 0.1
-          exchangeRate: 363.5
-        ) {
-          price
-        }
-      })
-    end
-
     subject(:sell_result) do
       CoinBoxSchema.execute(sell_query).as_json
-    end
-
-    subject(:bad_result) do
-      CoinBoxSchema.execute(query).as_json
     end
 
     it "returns all price attributes" do
