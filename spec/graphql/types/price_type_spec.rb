@@ -37,7 +37,7 @@ RSpec.describe Types::PriceType do
 
     it "returns all price attributes" do
       expect(sell_result.dig("data", "calculatePrice")).to include({
-        'price' => a_value > 3000000
+        'price' => a_value > 0
       })
     end
   end
@@ -61,7 +61,7 @@ RSpec.describe Types::PriceType do
 
     it "returns all price attributes" do
       expect(buy_result.dig("data", "calculatePrice")).to include({
-        'price' => a_value < 4000000
+        'price' => a_value > 0
       })
     end
   end
