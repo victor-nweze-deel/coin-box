@@ -7,7 +7,6 @@ rvm:
 services:
   - postgresql
 before_install:
-  - yes | gem update --system --force
   - gem install bundler:2.1.4
 notifications:
   - false
