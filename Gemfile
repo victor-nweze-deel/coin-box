@@ -11,12 +11,18 @@ gem 'webpacker', '~> 4.0'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'graphql'
-gem 'graphiql-rails'
 gem 'figaro'
 gem 'httparty'
+gem 'simplecov'
+gem 'simplecov-console'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem "codeclimate-test-reporter"
 end
 
 group :development do

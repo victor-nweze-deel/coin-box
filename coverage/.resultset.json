@@ -1,0 +1,146 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/types/price_type.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/types/base_object.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/types/base_field.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/types/base_argument.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/coin_box_schema.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/graphql/types/query_type.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          3,
+          null,
+          3,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/victornweze/Desktop/myprojects/buycoins/api/coin-box/app/lib/coin_desk_api.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          2,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          3,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          1,
+          1,
+          1,
+          null,
+          null,
+          2,
+          2,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1581211422
+  }
+}
