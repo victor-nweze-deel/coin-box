@@ -13,7 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'graphql'
 gem 'figaro'
 gem 'httparty'
-gem 'simplecov'
+gem 'simplecov', '< 0.18'
 gem 'simplecov-console'
 
 group :development, :test do
