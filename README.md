@@ -3,6 +3,8 @@
 | -----------:|:-----------:|
 | AUTHOR      | [![Jiggy](https://svgshare.com/i/Bfm.svg)](https://github.com/ProfJigsaw)       |
 | BUILD STATUS   | [![Build Status](https://travis-ci.com/ProfJigsaw/coin-box.svg?token=X8ZfjDUfqPhNecNQtVRq&branch=master)](https://travis-ci.com/ProfJigsaw/coin-box)         |
+|MAINTAINABILITY|[![Maintainability](https://api.codeclimate.com/v1/badges/35b252cb7735daba2d4a/maintainability)](https://codeclimate.com/github/ProfJigsaw/coin-box/maintainability)|
+|TEST COVERAGE|__NULL__|
 
 # GRAPHIQL COIN-BOX
 
