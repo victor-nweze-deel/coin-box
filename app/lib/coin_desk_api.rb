@@ -43,7 +43,7 @@ class CoinDeskApi
 
   def compute_price()
     rate_in_usd = @bcp['rate_float']&.to_f
-    margin_in_usd = rate_in_usd * @margin
+    margin_in_usd = rate_in_usd * (@margin / 100)
 
     if @type === 'sell'
       adjusted_rate_in_usd = rate_in_usd - margin_in_usd
